@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS web page animations</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>CSS web page animations</h1>
+        <div class="box">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="animation1.html">home</a></li>
+                    <li><a href="animation2.html">about</a></li>
+                    <li><a href="animation3.html">contact</a></li>
+                    <li><a href="animation4.html">info</a></li>
+                    <li><a href="animation5.html">email</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="content">
+                <h2>Welcome to my animated web page!</h2>
+                <p>This is a simple demonstration of CSS animations and transitions.</p>
+            </div>
+            <div class="details">
+                <form action="personalinfo">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                    <input type="submit" value="Submit" class="submit-button" id="submitBtn">                    
+                </form><br>
+                <div class="animate-demo">
+                    <button id="animateBtn">Animate Box</button>
+                    <div id="boxToAnimate" class="demo-box"></div>
+                </div>
+                 <button id="showModalBtn">pop up</button>
+            </div>
+            <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h3>css animations</h3>
+        <p>This css javascript animation popup!</p>
+    </div>
+</div>
+            <div class="animated">
+                <p>This box has a background color animation.</p>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 My Animated Web Page</p>
+            </div>
+        </div>
+    <script src="script.js"></script>
+
+    </body>
+</html>
